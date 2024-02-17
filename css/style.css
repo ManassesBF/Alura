@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+p, a {
+    font-size: 2.6rem;
+}
+
+li, a {
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 86%;
+    margin: auto;
+}
+
+.wrapperContainer-light {
+    background-color: rgb(88, 88, 88);
+    border-bottom: 3px solid white;
+}
+
+.wrapperContainer-hero {
+    background-color: rgb(58, 58, 58);
+}
+
+.wrapperContainer-light2 {
+    background-color: #D9D9D9;
+}
+
+.wrapperContainer-dark {
+    background: #141414;
+}
+
+.header {
+    padding: 4rem;
+}
+
+.list {
+    display: flex;
+    gap: 4rem;
+    justify-content: end;
+}
+
+.list__item a {
+    color: white;
+}
+
+.hero {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    height:  60rem;
+}
+
+.hero__content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero__title {
+    font-size: 4rem;
+}
+
+
+
+.students {
+    display: flex;
+    flex-direction: column;
+    height: 90rem;
+}
+
+.students__title {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 3em;
+}
+
+.cards {
+    width: 70%;
+    gap: 2rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.student__card {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.student__card .card__img {
+    max-width: 60%;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.footer {
+    padding: 4.2rem;
+    text-align: center;
+    color: white;
+}
